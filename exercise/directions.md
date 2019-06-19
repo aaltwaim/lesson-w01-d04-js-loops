@@ -10,6 +10,10 @@ Paste your answers into this file.
 
 ```
 ANSWER HERE
+for(let i =0;i<=10;i++){
+    console.log(i);
+    
+}
 ```
 
 <br>
@@ -18,6 +22,10 @@ ANSWER HERE
 
 ```
 ANSWER HERE
+for(let i =10;i>=0;i--){
+    console.log(i);
+    
+}
 ```
 
 <br>
@@ -26,6 +34,10 @@ ANSWER HERE
 
 ```
 ANSWER HERE
+for(let i =4;i>=-16;i--){
+    console.log(i);
+    
+}
 ```
 
 <br>
@@ -34,6 +46,10 @@ ANSWER HERE
 
 ```
 ANSWER HERE
+for(let i =4;i>=-16;i--){
+    console.log(i);
+    
+}
 ```
 
 <br>
@@ -51,6 +67,16 @@ If the `number` is evenly divisible by 3 AND evenly divisible by 5, print "Fizzb
 
 ```
 ANSWER HERE
+for(let i =1;i<=100;i++){
+
+if((i%3===0)&&(i%5===0)){
+    console.log("FizzBuzz");
+} else if(i%3 ===0){
+    console.log("Fizz");
+}else if(i%5 ===0){
+    console.log("Buzz");
+}
+}
 ```
 
 <br>
@@ -62,6 +88,13 @@ Write a for loop that will iterate from 0 to 20. For each iteration, it will che
 
 ```
 ANSWER HERE
+for(let i =0;i<=20;i++){
+ if(i%2==0){
+   console.log(i+" is even number")
+ }else{
+   console.log(i+" is odd number")
+ }
+}
 ```
 
 <br>
@@ -75,6 +108,15 @@ Bonus: Use a nested for loop to show the tables for every multiplier from 1 to 1
 
 ```
 ANSWER HERE
+let sum =0
+for(let i =0;i<=10;i++){
+  let num1 = i*2
+  console.log(num1);
+sum = sum + num1;
+
+
+}
+console.log(sum)
 ```
 
 <br>
@@ -85,4 +127,15 @@ Check the results for every value from 60 to 100 - so your log should show "For 
 
 ```
 ANSWER HERE
+for(let i =60;i<=100;i++){
+  if(i<=69){
+    console.log("For "+i+ " you got D")
+  }else if(i<=79 && i>69){
+    console.log("For "+i+ " you got C")
+  } else if(i<=89 && i>79){
+    console.log("For "+i+ " you got B")
+  }else if(i<=100 && i>89){
+    console.log("For "+i+ " you got A")
+  }
+}
 ```
